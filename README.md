@@ -10,6 +10,10 @@
 
 ## Oracledb 연결
 
+`Hans-On`에서 필요한 자료들은 GCS에 업로드 해두었습니다.
+
+[Oracle](http://www.oracle.com/technetwork/indexes/downloads/index.html#database) 에서도 받으실 수 있습니다.
+
 `ubuntu vm` 에서 oracledb와 연동하기 위해 `Oracle Instant Client`를 설치합니다. 버전은 12.1을 이용합니다.
 
 `oracle-instant-basic` : `gs//oracle-client-bucket/oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm`
@@ -73,6 +77,8 @@ $ embulk gem install embulk-output-bigquery
 ```
 
 그리고, embulk를 실질적으로 수행하는데 필요한 `.yaml` 파일을 작성합니다.
+
+`odjbc8.jar` : `gs://oracle-sqlplus/ojdbc8.jar`
 
 ```
 in:
