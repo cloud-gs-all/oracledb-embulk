@@ -106,7 +106,11 @@ out:
 
 ## 마이그레이션 수행 시 발생할 수 있는 이슈 모음
 
-`sqlplus64: error while loading shared libraries: libsqlplus.so: cannot open shared object file: No such file or directory` : `$ sudo apt-get install libaio1 libaio-dev`
+`sqlplus64: error while loading shared libraries: libsqlplus.so: cannot open shared object file: No such file or directory` :
+
+```
+$ sudo apt-get install libaio1 libaio-dev
+```
 
 `ORA-01882: timezone region not found ` :
 
