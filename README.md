@@ -124,3 +124,9 @@ $ sudo apt-get install libaio1 libaio-dev
 sudo java -jar ojdbc8.jar configure -Doracle.jdbc.timezoneAsRegion=false
 sudo timedatectl set-timezone Asia/Seoul
 ```
+
+## 참고 문헌
+
+[KimFactory-[Ubuntu 16.04] 우분투 오라클 클라이언트 설치 - sqlplus php5.6 php7.0 oracle client install](https://blog.kimsfactory.com/entry/Ubuntu-1604-%EC%9A%B0%EB%B6%84%ED%88%AC-%EC%98%A4%EB%9D%BC%ED%81%B4-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%84%A4%EC%B9%98-sqlplus-php56-php70-oracle-client-install)
+
+[이정운-Embulk 이용해서 Oracle DB 에서 BigQuery 로 데이터 마이그레이션 삽질기](https://medium.com/@jwlee98/embulk-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-oracle-db-%EC%97%90%EC%84%9C-bigquery-%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98-%EC%82%BD%EC%A7%88%EA%B8%B0-141dc1d62b73)
