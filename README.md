@@ -5,7 +5,7 @@
 data migration ETL작업 툴은 `embulk`를 이용하겠습니다.
 
 ## 시작
-## Oracledb 연결
+## Oracle Server 연결(Oracle Client 세팅)
 
 `Hans-On`에서 필요한 자료들은 GCS에 업로드 해두었습니다.
 
@@ -142,7 +142,9 @@ $ embulk gem install embulk-output-bigquery
 
 그리고, embulk를 실질적으로 수행하는데 필요한 `.yaml` 파일을 작성합니다.
 
-`odjbc8.jar GCS 위치` : `gs://oracle-sqlplus/ojdbc8.jar`
+`Hans-On`에서 필요한 자료들은 GCS에 업로드 해두었습니다.
+
+`odjbc8.jar` : `gs://oracle-sqlplus/ojdbc8.jar`
 
 ```
 in:
