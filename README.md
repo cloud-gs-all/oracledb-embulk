@@ -23,7 +23,7 @@ data migration ETL작업 툴은 `embulk`를 이용하겠습니다.
 
 버전은 **12.1**을 이용합니다.
 
-## MacOS & Linux는 아래 환경 설정
+## MacOS & Linux는 환경 설정
 
 ```
 $ apt-get install alien
@@ -195,4 +195,4 @@ sudo timedatectl set-timezone Asia/Seoul
 
 [이정운-Embulk 이용해서 Oracle DB 에서 BigQuery 로 데이터 마이그레이션 삽질기](https://medium.com/@jwlee98/embulk-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-oracle-db-%EC%97%90%EC%84%9C-bigquery-%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98-%EC%82%BD%EC%A7%88%EA%B8%B0-141dc1d62b73)
 
-[Oracle Instant Client(11.2.0.4) 설치 및 설정(Windows 10 x64 기준](https://testtube.tistory.com/entry/Oracle-Instant-Client11204-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95Windows-10-x64-%EA%B8%B0%EC%A4%80)
+[Oracle Instant Client(11.2.0.4) 설치 및 설정(Windows 10 x64 기준)](https://testtube.tistory.com/entry/Oracle-Instant-Client11204-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%84%A4%EC%A0%95Windows-10-x64-%EA%B8%B0%EC%A4%80)
