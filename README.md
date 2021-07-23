@@ -23,7 +23,7 @@ data migration ETL작업 툴은 `embulk`를 이용하겠습니다.
 
 버전은 **12.1**을 이용합니다.
 
-## MacOS & Linux는 환경 설정
+## MacOS & Linux 환경 설정
 
 ```
 $ apt-get install alien
@@ -73,11 +73,9 @@ XE=
 `$ sqlplus username/password@dbhost(Ip):port/SID` 명령어로 oracledb에 접근되는지 확인합니다.
 
 
-## Windows 의 경우 아래 환경 설정
+## Windows 환경 설정
 
 [여기](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html) 에서 `12.1` 버전으로 `Base Package` 자료를 받으시면 됩니다. 
-
-### 환경설정
 
 `제어판 -> 시스템 -> 고급 시스템 설정 -> 고급 탭 -> 환경 변수`의 시스템 변수에 다음 추가합니다.
 
