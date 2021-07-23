@@ -5,7 +5,7 @@
 data migration ETL작업 툴은 `embulk`를 이용하겠습니다.
 
 ## 시작
-## Oracle Server 연결(Oracle Client 세팅)
+## Oracle Server 연결(Oracle Client Setting)
 
 `Hans-On`에서 필요한 자료들은 GCS에 업로드 해두었습니다.
 
