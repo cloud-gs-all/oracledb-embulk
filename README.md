@@ -89,11 +89,11 @@ Path의 편집 들어가서 %ORACLE_HOME% 추가합니다.
 
 다음은 레지스트리 편집기 실행(regedit)해 보겠습니다.
 
-HKEY_LOCAL_HKEY_LOCAL_MACHINE\SOFTWARE 우클릭하여 '새로 만들기 -> 키' -> ORACLE 추가합니다.
+HKEY_LOCAL_HKEY_LOCAL_MACHINE\SOFTWARE 우클릭하여 `새로 만들기 -> 키` -> ORACLE 추가합니다.
 
-HKEY_LOCAL_HKEY_LOCAL_MACHINE\SOFTWARE\ORACLE 우클릭하여 '새로 만들기 -> 문자열 값' -> TNS_ADMIN 추가하고 더블클릭 하여  값 데이터에 Instant Client 압축 해제한 경로\network (예. D:\instantclient_11_2\network) 입력후 '확인' 합니다.
+HKEY_LOCAL_HKEY_LOCAL_MACHINE\SOFTWARE\ORACLE 우클릭하여 `새로 만들기 -> 문자열 값` -> TNS_ADMIN 추가하고 더블클릭 하여  값 데이터에 Instant Client 압축 해제한 경로\network (예. D:\instantclient_11_2\network) 입력후 `확인` 합니다.
 
-HKEY_LOCAL_HKEY_LOCAL_MACHINE\SOFTWARE\ORACLE 우클릭하여 '새로 만들기 -> 문자열 값' -> NLS_LANG 추가하고 더블클릭 하여  값 데이터에 KOREAN_KOREA.KO16MSWIN949 입력후 '확인'
+HKEY_LOCAL_HKEY_LOCAL_MACHINE\SOFTWARE\ORACLE 우클릭하여 `새로 만들기 -> 문자열 값` -> NLS_LANG 추가하고 더블클릭 하여  값 데이터에 KOREAN_KOREA.KO16MSWIN949 입력후 `확인`
 
 ### Tnsnames.ora 파일을 설정
 
